@@ -2,7 +2,7 @@ import os
 from flask import Flask, session
 from config import Config
 from models import db
-from routes import auth_bp
+from api_controllers import auth_bp
 from flask_cors import CORS
 
 def create_app():
